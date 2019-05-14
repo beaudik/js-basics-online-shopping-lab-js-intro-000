@@ -43,7 +43,7 @@ function viewCart() {
 return inCart.join(', ')
 }
 }
-}
+
 
 function total() {
   // write your code here
