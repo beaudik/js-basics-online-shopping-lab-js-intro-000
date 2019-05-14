@@ -17,10 +17,10 @@ function addToCart(item) {
      + Upon the successful addition of a new item to the cart, the function should return `<itemName> has been added to your cart.` .*/
      var itemObj = {
        itemName = item,
-       itemPrice = Math.floor((Math.random() * 100) + 1);
-       return `itemObj.itemName() has been added to your cart.`
+       itemPrice = Math.floor((Math.random() * 100) + 1)
+      
      }
-
+      return `itemObj.itemName() has been added to your cart.`
 }
 
 function viewCart() {
