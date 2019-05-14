@@ -16,8 +16,8 @@ function addToCart(item) {
        * ***HINT***: Look into `Math.random()` and `Math.floor()`.
      + Upon the successful addition of a new item to the cart, the function should return `<itemName> has been added to your cart.` .*/
      var itemObj = {
-       itemName = item,
-       itemPrice = Math.floor((Math.random() * 100) + 1)
+       itemName : item,
+       itemPrice : Math.floor((Math.random() * 100) + 1)
 
      }
       return `itemObj.itemName() has been added to your cart.`
