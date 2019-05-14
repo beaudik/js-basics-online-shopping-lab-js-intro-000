@@ -21,7 +21,7 @@ function addToCart(item) {
 
      }
      cart.push(itemObj.item())
-     
+
       return `itemObj.itemName() has been added to your cart.`
 }
 
