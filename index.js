@@ -15,6 +15,7 @@ function addToCart(item) {
      + The price of each item should be a randomly-generated integer between 1 and 100.
        * ***HINT***: Look into `Math.random()` and `Math.floor()`.
      + Upon the successful addition of a new item to the cart, the function should return `<itemName> has been added to your cart.` .*/
+     cart.push(item)
      var itemObj = {
        itemName : item,
        itemPrice : Math.floor((Math.random() * 100) + 1)
