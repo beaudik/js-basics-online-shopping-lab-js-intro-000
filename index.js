@@ -22,7 +22,7 @@ function addToCart(item) {
      }
      cart.push(itemObj)
 
-      return `itemObj.itemName has been added to your cart.`
+      return `${itemObj.itemName} has been added to your cart.`
 }
 
 function viewCart() {
@@ -49,4 +49,5 @@ cart.forEach(function(element) {
 
 function placeOrder(cardNumber) {
   // write your code here
+
 }
