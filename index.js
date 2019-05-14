@@ -34,7 +34,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   //var array1 = ['a', 'b', 'c'];
-if (!cart.findIndex) return `That item is not in your cart.`
+/*if (!cart.findIndex) return `That item is not in your cart.`
 cart.forEach(function(element) {
   if (element == item){
   cart.splice(cart.indexOf(element), 1);
@@ -42,7 +42,7 @@ cart.forEach(function(element) {
 
 
 
-});
+});*/
 }
 
 function placeOrder(cardNumber) {
