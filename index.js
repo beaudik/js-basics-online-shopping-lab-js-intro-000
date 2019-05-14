@@ -42,7 +42,7 @@ function viewCart() {
 }
 return inCart.join(', ')
 }
-}/ write your code here
+}
 }
 
 function total() {
